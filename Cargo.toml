@@ -1,0 +1,19 @@
+[package]
+name = "sql-table-macros"
+version = "0.1.0"
+edition = "2021"
+authors = ["qyuzh <qyuzhang22@gmail.com>"]
+categories = ["rust-patterns"]
+keywords = ["sql", "sql-macros"]
+description = "Helper macros to generate SQL table definitions"
+license = "MIT"
+documentation = "https://docs.rs/sql-table-macros"
+rust-version = "1.56"
+repository = "https://github.com/qyuzh/sql-table-macros"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0"
+quote = "1.0"
