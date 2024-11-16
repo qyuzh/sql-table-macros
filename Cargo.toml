@@ -1,9 +1,9 @@
 [package]
 name = "sql-table-macros"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["qyuzh <qyuzhang22@gmail.com>"]
-categories = ["rust-patterns"]
+categories = ["rust-patterns", "database"]
 keywords = ["sql", "sql-macros"]
 description = "Helper macros to generate SQL table definitions"
 license = "MIT"
