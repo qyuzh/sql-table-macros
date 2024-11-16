@@ -1,6 +1,6 @@
 # sql-table-macros
 
-Helper macros to generate SQL table definitions
+Helper macros to auto add sql table common fields to struct definition
 
 ## Example
 
